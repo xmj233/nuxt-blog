@@ -12,14 +12,6 @@ import { footerData, socialLinks } from '~/data'
     </p>
     <div class="my-3 space-x-3 pb-3">
       <NuxtLink
-        :to="socialLinks.rednoteLink"
-        target="_blank"
-        class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-sky-700 dark:text-[#F1F2F4]"
-        aria-label="ReadNote"
-      >
-        <Icon name="fa:linkedin-square" size="1em" class="-translate-y-[-10%]" />
-      </NuxtLink>
-      <NuxtLink
         :to="socialLinks.githubLink"
         target="_blank"
         class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-sky-700 dark:text-[#F1F2F4]"
@@ -28,12 +20,28 @@ import { footerData, socialLinks } from '~/data'
         <Icon name="fa:github" size="1em" class="-translate-y-[-10%]" />
       </NuxtLink>
       <NuxtLink
+        :to="socialLinks.linkedinLink"
+        target="_blank"
+        class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-sky-700 dark:text-[#F1F2F4]"
+        aria-label="LinkedIn"
+      >
+        <Icon name="fa:linkedin-square" size="1em" class="-translate-y-[-10%]" />
+      </NuxtLink>
+      <NuxtLink
         :to="socialLinks.twitterLink"
         target="_blank"
         class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-sky-700 dark:text-[#F1F2F4]"
         aria-label="Twitter"
       >
         <Icon name="fa:twitter-square" size="1em" class="-translate-y-[-10%]" />
+      </NuxtLink>
+      <NuxtLink
+        :to="socialLinks.stackoverflowLink"
+        target="_blank"
+        class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-sky-700 dark:text-[#F1F2F4]"
+        aria-label="StackOverflow"
+      >
+        <Icon name="fa:stack-overflow" size="1em" class="-translate-y-[-10%]" />
       </NuxtLink>
     </div>
   </div>

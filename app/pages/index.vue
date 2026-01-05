@@ -7,7 +7,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Welcome To My Blog Site. Code, Capital, and Canvas. A digital log documenting my journey in Java development, financial experiments, and life stories.',
+        'Welcome To My Blog Site. Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
     },
   ],
 })
