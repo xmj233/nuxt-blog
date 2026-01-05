@@ -28,14 +28,14 @@ useHead({
 })
 
 // Generate OG Image
-const siteData = useSiteConfig()
-defineOgImage({
-  props: {
-    title: 'Categories',
-    description: 'Below All the topics are listed on which either I have written a blog or will write a blog in near future.',
-    siteName: siteData.url,
-  },
-})
+// const siteData = useSiteConfig()
+// defineOgImage({
+//   props: {
+//     title: 'Categories',
+//     description: 'Below All the topics are listed on which either I have written a blog or will write a blog in near future.',
+//     siteName: siteData.url,
+//   },
+// })
 </script>
 
 <template>

@@ -125,30 +125,22 @@ useHead({
 
 // Generate OG Image
 const article = articles.value as ContentItem | null
-defineOgImageComponent('Test', {
-  headline: 'Riyads Blog 👋',
-  title: article?.seo?.title || '',
-  description: article?.seo?.description || '',
-  link: data.value.ogImage,
-})
+// defineOgImageComponent('Test', {
+//   headline: 'Riyads Blog 👋',
+//   title: article?.seo?.title || '',
+//   description: article?.seo?.description || '',
+//   link: data.value.ogImage,
+// })
 </script>
 
 <template>
   <div>
     <div class="px-6 container max-w-5xl mx-auto">
       <div>
-        <BlogHeader
-          :title="data.title"
-          :image="data.image"
-          :alt="data.alt"
-          :date="data.date"
-          :description="data.description"
-          :tags="data.tags"
-          :reading-time="readingTime"
-        />
+        <BlogHeader :title="data.title" :image="data.image" :alt="data.alt" :date="data.date"
+          :description="data.description" :tags="data.tags" :reading-time="readingTime" />
         <div
-          class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg"
-        >
+          class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
           <ContentRenderer v-if="articles" :value="articles">
             <template #empty>
               <p>No content found.</p>
@@ -159,15 +151,8 @@ defineOgImageComponent('Test', {
 
       <div class="flex flex-row flex-wrap md:flex-nowrap mt-10 gap-2">
         <ClientOnly>
-          <SocialShare
-            v-for="network in ['facebook', 'twitter', 'linkedin', 'email']"
-            :key="network"
-            :network="network"
-            :styled="true"
-            :label="true"
-            class="p-1"
-            aria-label="Share with {network}"
-          />
+          <SocialShare v-for="network in ['facebook', 'twitter', 'linkedin', 'email']" :key="network" :network="network"
+            :styled="true" :label="true" class="p-1" aria-label="Share with {network}" />
         </ClientOnly>
       </div>
 

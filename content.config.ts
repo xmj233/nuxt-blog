@@ -10,14 +10,14 @@ export default defineContentConfig({
         type: 'page',
         source: '**/*.md',
       }),
-      ...asSitemapCollection({
-        type: 'page',
-        source: '**/*.md',
-      }),
-      ...asOgImageCollection({
-        type: 'page',
-        source: '**/*.md',
-      }),
+      // ...asSitemapCollection({
+      //   type: 'page',
+      //   source: '**/*.md',
+      // }),
+      // ...asOgImageCollection({
+      //   type: 'page',
+      //   source: '**/*.md',
+      // }),
     }),
   },
 })
