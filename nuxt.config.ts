@@ -21,10 +21,6 @@ export default defineNuxtConfig({
     '@stefanobartoletti/nuxt-social-share',
   ],
 
-  ogImage: {
-    fonts: ['Inter:400', 'Inter:700'],
-  },
-
   llms: {
     domain: seoData.mySite,
     title: seoData.title,
@@ -47,7 +43,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://nuxt-blog.pages.dev', // Use a placeholder for build time
+    url: seoData.mySite,
     name: 'Al Asad Nur Riyad',
   },
 
