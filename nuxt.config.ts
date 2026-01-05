@@ -20,9 +20,9 @@ export default defineNuxtConfig({
     '@stefanobartoletti/nuxt-social-share',
   ],
 
-  ogImage: {
-    fonts: ['Inter:400', 'Inter:700'],
-  },
+  // ogImage: {
+  //   fonts: ['Inter:400', 'Inter:700'],
+  // },
 
   llms: {
     domain: seoData.mySite,
@@ -41,9 +41,9 @@ export default defineNuxtConfig({
     layoutTransition: { name: 'layout', mode: 'out-in' },
   },
 
-  sitemap: {
-    // sources: [seoData.mySite],
-  },
+  // sitemap: {
+  //   // sources: [seoData.mySite],
+  // },
 
   site: {
     url: 'https://nuxt-blog.pages.dev', // Use a placeholder for build time
