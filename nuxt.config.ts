@@ -39,7 +39,7 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    // sources: [seoData.mySite],
+    sources: [seoData.mySite],
   },
 
   site: {

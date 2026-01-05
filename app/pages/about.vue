@@ -15,6 +15,7 @@ defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: navbarData.homeTitle,
   description: 'Dive into web development with me and learn Js, Ts, Vue, Nuxt, Docker, k8s',
+  link: '/riyad.jpg',
 })
 </script>
 
@@ -28,19 +29,28 @@ defineOgImageComponent('About', {
               {{ aboutPage.title }}
             </h1>
             <div class="my-3 space-x-2 md:space-x-3 pb-10">
-              <NuxtLink :to="socialLinks.rednoteLink" target="_blank"
+              <NuxtLink
+                :to="socialLinks.rednoteLink"
+                target="_blank"
                 class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
-                aria-label="ReadNote">
+                aria-label="ReadNote"
+              >
                 <Icon name="fa:linkedin-square" size="1em" class="-translate-y-[-10%]" />
               </NuxtLink>
-              <NuxtLink :to="socialLinks.githubLink" target="_blank"
+              <NuxtLink
+                :to="socialLinks.githubLink"
+                target="_blank"
                 class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
-                aria-label="Github">
+                aria-label="Github"
+              >
                 <Icon name="fa:github" size="1em" class="-translate-y-[-10%]" />
               </NuxtLink>
-              <NuxtLink :to="socialLinks.twitterLink" target="_blank"
+              <NuxtLink
+                :to="socialLinks.twitterLink"
+                target="_blank"
                 class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
-                aria-label="Twitter">
+                aria-label="Twitter"
+              >
                 <Icon name="fa:twitter-square" size="1em" class="-translate-y-[-10%]" />
               </NuxtLink>
             </div>
