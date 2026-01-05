@@ -11,8 +11,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/eslint',
     '@vueuse/nuxt',
-    // '@nuxtjs/sitemap',
-    // 'nuxt-og-image',
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
@@ -20,9 +18,7 @@ export default defineNuxtConfig({
     '@stefanobartoletti/nuxt-social-share',
   ],
 
-  // ogImage: {
-  //   fonts: ['Inter:400', 'Inter:700'],
-  // },
+
 
   llms: {
     domain: seoData.mySite,
@@ -41,9 +37,7 @@ export default defineNuxtConfig({
     layoutTransition: { name: 'layout', mode: 'out-in' },
   },
 
-  // sitemap: {
-  //   // sources: [seoData.mySite],
-  // },
+
 
   site: {
     url: 'https://nuxt-blog.pages.dev', // Use a placeholder for build time
