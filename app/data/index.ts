@@ -40,7 +40,7 @@ export const seoData = {
   description: `Hi, I am a software engineer specializing in Java, currently on a path to becoming a full-time Price Action Trader.  - Andrew Blog | Andrew's Blog`,
   twitterDescription: `Andrew's Blog, where I play around with Java, Vue, and more and showcase my blog, resources, etc - Andrew Blog | Andrew's Blog`,
   image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  // mySite: 'https://github.com/xmj233',
+  mySite: 'https://blog-nurriyad.vercel.app/',
   twitterHandle: '@JoeZzdf',
   mailAddress: '543055255@qq.com',
 }
