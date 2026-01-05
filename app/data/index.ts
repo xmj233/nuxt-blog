@@ -1,12 +1,12 @@
 export const navbarData = {
-  homeTitle: "Andrew's Blog",
+  homeTitle: "Riyad's Blog",
 }
 
 export const footerData = {
-  author: 'Andrew Xu',
-  aboutAuthor: 'Hi! I am Andrew, a Java software engineer. Currently working at Dynadot.',
+  author: 'Al Asad Nur Riyad',
+  aboutAuthor: 'Hi! I am Riyad, a Tech enthusiast, problem solver and software engineer. Currently working at FieldNation LLC.',
   authorInterest:
-    "From clean code to clean charts. I love exploring the logic behind software and the psychology behind market movements. Let's connect if you share similar passions.",
+    "I have a fair amount of knowledge of Javascript, Typescript, VueJs, and Nuxt. If you have an interesting idea, either open source or paid let's connect.",
   aboutTheSite:
     "This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it's deployed in Vercel.",
 }
@@ -14,7 +14,7 @@ export const footerData = {
 export const homePage = {
   title: 'Welcome To My Blog Site',
   description:
-    'Code, Capital, and Canvas. A digital log documenting my journey in Java development, financial experiments, and life stories.',
+    'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
 }
 
 export const blogsPage = {
@@ -28,27 +28,28 @@ export const categoryPage = {
 }
 
 export const aboutPage = {
-  title: 'Andrew Xu',
-  description: 'Java Developer & Aspiring Price Action Trader.',
+  title: 'Al Asad Nur Riyad',
+  description: 'Software Engineer, Problem Solver, Web Enthusiast.',
   aboutMe:
-    "I am a software engineer specializing in Java, currently on a path to becoming a full-time Price Action Trader. I believe that discipline in coding translates to discipline in trading. Here, I write about the strict rules of programming and the fluid art of market speculation.",
+    "Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at @FieldNation in the Workplace Operation team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!",
 }
 
 export const seoData = {
-  title: `Andrew's Blog | Andrew Blog`,
-  ogTitle: `Let's learn Code & Price Action Trading - Andrew Blog | Andrew's Blog`,
-  description: `Hi, I am a software engineer specializing in Java, currently on a path to becoming a full-time Price Action Trader.  - Andrew Blog | Andrew's Blog`,
-  twitterDescription: `Andrew's Blog, where I play around with Java, Vue, and more and showcase my blog, resources, etc - Andrew Blog | Andrew's Blog`,
+  title: `Riyad's Blog | Riyads Blog`,
+  ogTitle: `Let's learn Javascript, Typescript, Vue, Nuxt, & Problem Solving - Riyads Blog | Riyad's Blog`,
+  description: `Hi I am Riyad. A Software Engineer at FieldNation, with over 3.5+ years experience in software development. - Riyads Blog | Riyad's Blog`,
+  twitterDescription: `Riyad's Blog, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc - Riyads Blog | Riyad's Blog`,
   image: 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-  mySite: 'https://0-zone.vercel.app/',
-  twitterHandle: '@JoeZzdf',
-  mailAddress: '543055255@qq.com',
+  mySite: 'https://blog-nurriyad.vercel.app',
+  twitterHandle: '@qdnvubp',
+  mailAddress: 'asadnurriyad@gmail.com',
 }
 
 export const socialLinks = {
-  githubLink: 'https://github.com/xmj233',
-  twitterLink: 'https://twitter.com/JoeZzdf',
-  rednoteLink: 'https://www.xiaohongshu.com/user/profile/67d1774e000000000e010307',
+  githubLink: 'https://github.com/nurRiyad',
+  linkedinLink: 'https://www.linkedin.com/in/nur-riyad/',
+  twitterLink: 'https://twitter.com/qdnvubp',
+  stackoverflowLink: 'https://stackoverflow.com/users/16781395/nur-riyad',
 }
 
 export const siteMetaData = [
