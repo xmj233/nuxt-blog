@@ -2,11 +2,7 @@
 .output
 .nuxt
 .data
-dist/
-
 # Node dependencies
 node_modules
-package-lock.json
-
 # System files
 *.log

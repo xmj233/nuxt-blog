@@ -1,0 +1,7 @@
+# Andrew's Blog | Andrew Blog
+
+> Hi, I am a software engineer specializing in Java, currently on a path to becoming a full-time Price Action Trader.  - Andrew Blog | Andrew's Blog
+
+## Content
+
+- [How To Connect You Namecheap Domain With Vercel Deployed App](https://nuxt-blog.pages.dev/blogs/connect-namecheap-to-vercel): Here you will lean how to connect your namecheap domain to vercel deployed app.
